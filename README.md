@@ -16,11 +16,7 @@
   </p>
 </div>
 
-
-
 ## 
-
-
 
 ## 📖 项目简介
 
@@ -81,6 +77,7 @@
 - 🥕 物体识别与抓取（蔬菜、水果、厨具等）
   
   <!-- - 🔪 基础烹饪操作（切菜、搅拌、翻炒） -->
+
 - 🧹 环境清理与整理（详细教程待实现）
 
 ### 🧠 强化学习框架
@@ -91,10 +88,21 @@
 - 🔄 从模仿到强化的混合学习
 - 📊 性能评估与可视化工具
 
+<div align="center">
+  <img src="assets/2025-03-31-23-41-12-image.png" alt="机械臂光影渲染" width="800"/>
+  <p>机械臂光影渲染</p>
+
+  <img src="assets/2025-03-31-23-41-30-image.png" alt="取咖啡" width="800"/>
+  <p>取咖啡</p>
+
+  <img src="assets/2025-03-31-23-41-43-image.png" alt="室内高斯泼溅" width="800"/>
+  <p>室内高斯泼溅</p>
+</div>
+
 ## 🚀 学习路径建议
 
 <div align="center">
-  <img src="https://via.placeholder.com/800x400?text=%E5%AD%A6%E4%B9%A0%E8%B7%AF%E5%BE%84%E5%9B%BE" alt="学习路径图" width="800"/>
+  <img src="map.png" alt="学习路径图" width="800"/>
 </div>
 
 1. 🎮 从「[机器人仿真](01-机器人仿真/)」开始，搭建基础实验环境
