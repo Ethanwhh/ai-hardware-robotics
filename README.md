@@ -18,6 +18,8 @@
 
 ## 
 
+<img src="https://d-robotics.cc/assets/logo.b5ae9540.svg" title="" alt="logo" width="396"> 
+
 ## 📖 项目简介
 
 本仓库收集整理了AI硬件与机器人技术相关的教程资料，涵盖机器人仿真环境配置、控制算法实现、硬件开发、手眼协调等多个方面。适合机器人技术初学者和研究人员学习参考。
@@ -92,10 +94,10 @@
   <img src="assets/2025-03-31-23-41-12-image.png" alt="机械臂光影渲染" width="800"/>
   <p>机械臂光影渲染</p>
 
-  <img src="assets/2025-03-31-23-41-30-image.png" alt="取咖啡" width="800"/>
+<img src="assets/2025-03-31-23-41-30-image.png" alt="取咖啡" width="800"/>
   <p>取咖啡</p>
 
-  <img src="assets/2025-03-31-23-41-43-image.png" alt="室内高斯泼溅" width="800"/>
+<img src="assets/2025-03-31-23-41-43-image.png" alt="室内高斯泼溅" width="800"/>
   <p>室内高斯泼溅</p>
 </div>
 
