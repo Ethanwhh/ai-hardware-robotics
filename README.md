@@ -90,14 +90,18 @@
 - 📊 性能评估与可视化工具
 
 <div align="center">
-  <img src="assets/2025-03-31-23-41-12-image.png" alt="机械臂光影渲染" width="800"/>
-  <p>机械臂光影渲染</p>
-
-<img src="assets/2025-03-31-23-41-30-image.png" alt="取咖啡" width="800"/>
-  <p>取咖啡</p>
-
-<img src="assets/2025-03-31-23-41-43-image.png" alt="室内高斯泼溅" width="800"/>
-  <p>室内高斯泼溅</p>
+<table>
+  <tr>
+    <td><img src="assets/2025-03-31-23-41-12-image.png" alt="机械臂光影渲染" width="260"/></td>
+    <td><img src="assets/2025-03-31-23-41-30-image.png" alt="取咖啡" width="260"/></td>
+    <td><img src="assets/2025-03-31-23-41-43-image.png" alt="室内高斯泼溅" width="260"/></td>
+  </tr>
+  <tr>
+    <td>机械臂光影渲染</td>
+    <td>取咖啡</td>
+    <td>室内高斯泼溅</td>
+  </tr>
+</table>
 </div>
 
 ## 🚀 学习路径建议
