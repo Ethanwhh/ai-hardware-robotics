@@ -67,10 +67,6 @@
 
 ## ✨ 最新亮点
 
-<div align="center">
-  <img src="./assets/main1.png" alt="智能家务机器人" width="800"/>
-</div>
-
 ### 🍳 智能家务助手
 
 我们新增的家务机器人模块可实现多项厨房任务，包括：
@@ -90,19 +86,29 @@
 - 📊 性能评估与可视化工具
 
 <div align="center">
-<table>
-  <tr>
-    <td><img src="assets/2025-03-31-23-41-12-image.png" alt="机械臂光影渲染" width="260"/></td>
-    <td><img src="assets/2025-03-31-23-41-30-image.png" alt="取咖啡" width="260"/></td>
-    <td><img src="assets/2025-03-31-23-41-43-image.png" alt="室内高斯泼溅" width="260"/></td>
-  </tr>
-  <tr>
-    <td>机械臂光影渲染</td>
-    <td>取咖啡</td>
-    <td>室内高斯泼溅</td>
-  </tr>
-</table>
-</div>
+  <table>
+    <tr>
+      <td><img src="assets/2025-03-31-23-41-12-image.png" alt="机械臂光影渲染" width="260"/></td>
+      <td><img src="assets/2025-03-31-23-41-30-image.png" alt="取咖啡" width="260"/></td>
+      <td><img src="assets/2025-03-31-23-41-43-image.png" alt="室内高斯泼溅" width="260"/></td>
+    </tr>
+    <tr>
+      <td>机械臂光影渲染</td>
+      <td>取咖啡</td>
+      <td>室内高斯泼溅</td>
+    </tr>
+    <tr>
+      <td><img src="assets/2025-06-17-12-11-28-image.png" alt="机械臂光影渲染" width="260"/></td>
+      <td><img src="assets/2025-06-17-12-12-43-f0e46ab84c2c32c78c209598d5ece28.png" alt="取咖啡" width="260"/></td>
+      <td><img src="assets/2025-06-17-12-13-06-927cc0812a248f6da977b0194dae21b.png" alt="室内高斯泼溅" width="260"/></td>
+    </tr>
+    <tr>
+      <td>室内场景分割</td>
+      <td>机械臂香蕉抓取</td>
+      <td>抓取注意力可视化</td>
+    </tr>
+  </table>
+  </div>
 
 ## 🚀 学习路径建议
 
