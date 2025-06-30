@@ -107,14 +107,24 @@
       <td>机械臂香蕉抓取</td>
       <td>抓取注意力可视化</td>
     </tr>
+        <tr>
+      <td><img src="assets/2025-06-25-11-32-56-image.png" alt="机械臂光影渲染" width="260"/></td>
+      <td><img src="assets/2025-06-25-12-18-21-1750825085788.png" alt="取咖啡" width="260"/></td>
+      <td><img src="assets/2025-06-17-12-13-06-927cc0812a248f6da977b0194dae21b.png" alt="室内高斯泼溅" width="260"/></td>
+    </tr>
+    <tr>
+      <td>robotwin1.0复现</td>
+      <td>Lerobot仿真支持</td>
+      <td>抓取注意力可视化</td>
+    </tr>
   </table>
   </div>
 
+## 
+
 ## 🚀 学习路径建议
 
-<div align="center">
-  <img src="map.png" alt="学习路径图" width="800"/>
-</div>
+仿真学习路线：maniskill->sapien->isaac-sim
 
 1. 🎮 从「[机器人仿真](01-机器人仿真/)」开始，搭建基础实验环境
 2. ⚙️ 学习「[机器人控制](02-机器人控制/)」中的基本算法，掌握控制原理
