@@ -17,8 +17,14 @@
 </div>
 
 <div align="center">
-  <img src="./assets/logo.drobo.svg" title="" alt="logo" width="396"> 
+  <img src="./assets/logo.drobo.svg" title="" alt="logo" width="296"> 
 </div>
+<div align="center">
+  <img src="./assets/hugging-face.png" title="" alt="logo" width="296"> 
+</div>
+
+
+
 ## 📖 项目简介
 
 本仓库收集整理了AI硬件与机器人技术相关的教程资料，涵盖机器人仿真环境配置、控制算法实现、硬件开发、手眼协调等多个方面。适合机器人技术初学者和研究人员学习参考。
@@ -29,8 +35,6 @@
 - 🔧 实用导向：包含大量实际代码示例和应用案例
 - 🌐 持续更新：跟踪最新技术发展和应用趋势
 - 👨‍👩‍👧‍👦 社区支持：提供交流和问题解答平台
-
-
 
 ## ✨ 最新亮点
 
@@ -229,7 +233,3 @@ ls 02-机器人控制/
 
 - 💬 微信公众号：datawhale
 - 🌐 网站：[https://datawhale.club/home]
-
-## 📜 许可证
-
-本项目采用 MIT 许可证 - 详情请参阅 [LICENSE](LICENSE) 文件
