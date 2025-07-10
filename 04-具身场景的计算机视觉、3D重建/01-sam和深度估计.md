@@ -1,5 +1,3 @@
-
-
 ### 预备：sam_vit_h_4b8939.pth 下载
 
 这个文件是 Meta AI 发布的 Segment Anything Model (SAM) 的预训练模型权重文件，具体是 **ViT-H (Huge) 版本**。它是 SAM 提供的三种尺寸模型中最大、也是效果最好的一个。
@@ -106,8 +104,6 @@ SAM 的强大通用性来自于其海量的训练数据。Meta AI 创建了一�
 - **什么是相对深度？**：输出的深度图中，像素值的大小（或颜色）只表示“远近关系”。例如，一个像素值为 0.8 的点比像素值为 0.2 的点更远，但你不能直接说它就远 10 米。整个场景的深度被归一化到一个固定的范围（如 0 到 1）。
 
 - **为什么不是绝对深度？**：从单张图片无法确定场景的真实尺度。一张小房子的照片和一张大房子的照片可能看起来完全一样。要获得以“米”为单位的绝对深度，通常需要额外的尺度信息或使用立体相机等硬件。
-
-
 
 代码：
 
@@ -383,7 +379,7 @@ def run_perception_pipeline(
 
     end_time = time.time()
     print(f"\n感知流程在 {end_time - start_time:.2f} 秒内完成。")
-    
+
     results = {}
     if estimated_depth_map is not None:
         results["depth_map"] = estimated_depth_map
@@ -452,15 +448,8 @@ if __name__ == "__main__":
                 print("SAM 分割失败或未运行。")
         else:
             print(f"\n警告: SAM 检查点 '{sam_ckpt_path}' 未找到。跳过仅运行 SAM 分割的示例。")
-
 ```
 
-
-
-
-
 ![](assets/2025-07-07-10-25-39-image.png)
-
-
 
 ![](assets/2025-07-07-10-24-58-image.png)

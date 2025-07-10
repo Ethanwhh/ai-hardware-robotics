@@ -20,6 +20,9 @@
   <img src="./assets/logo.drobo.svg" title="" alt="logo" width="296"> 
 </div>
 <div align="center">
+  <img src="./assets/zhiyuan.png" title="" alt="logo" width="296"> 
+</div>
+<div align="center">
   <img src="./assets/hugging-face.png" title="" alt="logo" width="296"> 
 </div>
 
@@ -134,6 +137,10 @@
 
 - 机器人硬件选型
 
+- 地瓜机器人RDK使用和连接LeRobot SO101
+
+- 阿加犀开发板教程
+
 - 电路设计（todo）
 
 - AutoCAD绘图和Solidworks（todo）
@@ -161,7 +168,7 @@
 - 手眼标定
 
 - 抓取与操作
-7. 仿真环境学习
+7. **仿真环境学习**
 - Issac Sim/Issac Gym
 
 - Pybullet
@@ -191,7 +198,7 @@
 ## 🔧 环境要求
 
 - Python 3.8+
-- CUDA支持（用于3D仿真渲染）
+- CUDA支持（用于3D仿真渲染，部分实验可以cpu上进行）
 - ROS/ROS2（可选，用于实际机器人控制）
 - MuJoCo（物理引擎）
 - Isaac Sim（NVIDIA高级仿真平台）
