@@ -1,5 +1,38 @@
 ```Bash
-git clone https://huggingface.co/datasets/aopolin-lv/libero_spatial_no_noops_lerobot_v21git clone https://github.com/huggingface/lerobotcd lerobot/srcpython lerobot/scripts/train.py \  --policy.type=smolvla \  --dataset.repo_id=/data1/DATA/libero_spatial_no_noops_lerobot_v21 \  --batch_size=128 \  --steps=20000 \  --policy.push_to_hub=false \  --policy.use_amp=false \  --num_workers=12 \  --eval_freq=2000 \  --eval.n_episodes=5 \  --eval.batch_size=1 \  --save_freq=2000 \  --save_checkpoint=true \  --log_freq=200 \  --wandb.enable=false \  --output_dir=/home/vipuser/outputs/smolvla/   TOKENIZERS_PARALLELISM=false python lerobot/scripts/train.py \  --policy.type=smolvla \  --dataset.repo_id=/data1/DATA/libero_spatial_no_noops_lerobot_v21 \  --batch_size=128 \  --steps=20000 \  --policy.push_to_hub=false \  --policy.use_amp=false \  --num_workers=8 \  --eval_freq=2000 \  --eval.n_episodes=5 \  --eval.batch_size=1 \  --save_freq=2000 \  --save_checkpoint=true \  --log_freq=200 \  --wandb.enable=false \  --output_dir=/home/vipuser/outputs/smolvla/   
+git clone https://huggingface.co/datasets/aopolin-lv/libero_spatial_no_noops_lerobot_v21
+
+git clone https://github.com/huggingface/lerobotcd lerobot/srcpython lerobot/scripts/train.py \
+  --policy.type=smolvla \
+  --dataset.repo_id=/data1/DATA/libero_spatial_no_noops_lerobot_v21 \
+  --batch_size=128 \
+  --steps=20000 \
+  --policy.push_to_hub=false \
+  --policy.use_amp=false \
+  --num_workers=12 \
+  --eval_freq=2000 \
+  --eval.n_episodes=5 \
+  --eval.batch_size=1 \
+  --save_freq=2000 \
+  --save_checkpoint=true \
+  --log_freq=200 \
+  --wandb.enable=false \
+  --output_dir=/home/vipuser/outputs/smolvla/
+TOKENIZERS_PARALLELISM=false python lerobot/scripts/train.py \
+  --policy.type=smolvla \
+  --dataset.repo_id=/data1/DATA/libero_spatial_no_noops_lerobot_v21 \
+  --batch_size=128 \
+  --steps=20000 \
+  --policy.push_to_hub=false \
+  --policy.use_amp=false \
+  --num_workers=8 \
+  --eval_freq=2000 \
+  --eval.n_episodes=5 \
+  --eval.batch_size=1 \
+  --save_freq=2000 \
+  --save_checkpoint=true \
+  --log_freq=200 \
+  --wandb.enable=false \
+  --output_dir=/home/vipuser/outputs/smolvla/   
 ```
 
 ![](https://icndr2yneehy.feishu.cn/space/api/box/stream/download/asynccode/?code=NTAwMTY3ZTdhZTkzMWM4ZjNkN2Y4NDIxZWU0MjYzZDRfZHlxRm9GOGlvbmJBNG80cmZsS1RRdTBqaWVjM1h5ZVdfVG9rZW46RGJXM2JRdDd3b3ZWanB4V3dzeWNsMlhLbnFmXzE3NTI1MDQ5NzQ6MTc1MjUwODU3NF9WNA)
