@@ -1,5 +1,7 @@
 # 🤖 AI硬件与机器人技术教程 🛠️
 
+中文 | [English](./README.en.md)
+
 <div align="center">
   <img src="./assets/main1.png" alt="AI硬件与机器人技术" width="800"/>
 
@@ -44,9 +46,8 @@
 我们新增的家务机器人模块可实现多项厨房任务，包括：
 
 - 物体识别与抓取（蔬菜、水果、厨具等）
-  
-  <!-- - 🔪 基础烹饪操作（切菜、搅拌、翻炒） -->
 
+  <!-- - 🔪 基础烹饪操作（切菜、搅拌、翻炒） -->
 - 环境清理与整理（详细教程待实现）
 
 ### 🧠 强化学习框架
@@ -123,76 +124,63 @@
 ### 具身智能机器人
 
 1. **具身智能概述**
+
 - 定义与背景
-
 - 发展历程
-
 - 应用领域
+
 2. **机器人基础**
+
 - 机器人学基本概念
-
 - 运动学与动力学
-
 - 传感器与执行器
-
 - 机器人硬件选型
-
 - 地瓜机器人RDK使用和连接LeRobot SO101
-
 - 阿加犀开发板教程
-
 - 电路设计（todo）
-
 - AutoCAD绘图和Solidworks（todo）
-
 - 通信协议（todo）
-
 - ROS基础（todo）
+
 3. **计算机视觉**
+
 - 图像处理基础
-
 - 目标检测与识别
-
 - 图像分割
-
 - 位姿估计
+
 4. **机器人控制**
+
 - 运动规划
-
 - 路径规划
-
 - 控制算法
+
 5. **具身场景的深度和强化学习**
+
 - 强化学习
+
 6. **手眼协调**
+
 - 手眼标定
-
 - 抓取与操作
+
 7. **仿真环境学习**
+
 - Issac Sim/Issac Gym
-
 - Pybullet
-
 - gazebo（todo）
-
 - Genie-Sim
+
 8. **具身智能前沿项目（复现）**
+
 - 谷歌具身项目：RT-RT1、RT2、RTX（todo）
-
 - OmniGibson
-
 - BitVLA
-
 - 具身大脑RoboBrain2.0 (todo)
-
 - Aloha-ACT（todo）
-
 - OpenVLA（todo）
-
 - Octo（todo）
-
 - AngGrasp（todo）
-
 - 其他论文复现及代码
 
 ## 🔧 环境要求
@@ -203,19 +191,17 @@
 - MuJoCo（物理引擎）
 - Isaac Sim（NVIDIA高级仿真平台）
 
-## 📝 使用方法
+感谢如下小伙伴的参与和贡献：
 
-每个教程目录下包含独立的说明文档，请参照各自文档进行环境配置和代码运行。
+howe、Miles、麦芒、HAO
 
-```bash
-# 克隆仓库
-git clone https://github.com/yourusername/ai-hardware-robotics.git
-cd ai-hardware-robotics
+感谢如下小伙伴参与的翻译贡献：
 
-# 查看各部分教程
-ls 01-机器人仿真/
-ls 02-机器人控制/
-```
+
+- 第1~3章 Lune
+- 第4~5章 刘远洋
+- 第6~7章 苏家煜
+- 第8~9章 梁坚斌 leoliang023
 
 ## 🌟 学习社区
 
