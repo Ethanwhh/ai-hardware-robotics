@@ -115,11 +115,11 @@
   </table>
   </div>
 
-## 
 
-## 
 
-## 🚀 学习路径建议
+## 🚀 学习指南
+
+飞书文档：https://datawhaler.feishu.cn/wiki/ANwTwcmK1iydqZkBrpRcia3nnlf
 
 ### 具身智能机器人
 
