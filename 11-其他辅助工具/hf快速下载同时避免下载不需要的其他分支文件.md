@@ -2,8 +2,13 @@
 
 python3 download\_hf\_files.py IPEC-COMMUNITY/spatialvla-4b-224-pt main --repo-type model --download\_path /data1/spatialvla-4b-224-pt
 
-
 python3 download\_hf\_files.py google/gemma-3-1b-it main --repo-type model --download\_path ./gemma-3-1b-it
+
+python3 download\_hf\_files.py lerobot/smolvla_base main --repo-type model --download\_path ./smolvla_base
+
+python3 download\_hf\_files.py nikriz/aopoli-lv-libero_combined_no_noops_lerobot_v21 main --repo-type dataset --download\_path /home/vipuser/217data/aopoli-lv-libero
+
+python3 hf_downloader.py nikriz/aopoli-lv-libero_combined_no_noops_lerobot_v21 main --repo-type dataset --download\_path /home/vipuser/217data/aopoli-lv-libero-new
 
 python3 hf_downloader.py openvla/modified_libero_rlds main --repo-type dataset --download_path ./modified_libero_rlds_data
 
@@ -54,14 +59,14 @@ def download_files(file_list, repo_id, branch, download_path, repo_type, hf_toke
     for file_info in file_list:
         if file_info.get('type') == 'file':
             file_path = file_info['path']
-          
+  
             local_file_dir = os.path.dirname(os.path.join(download_path, file_path))
             if local_file_dir:
                 os.makedirs(local_file_dir, exist_ok=True)
-          
+  
             file_url = urljoin(base_url, quote(file_path, safe=''))
             aria2c_options = f"  out={file_path}"
-          
+  
             download_links_with_out.append((file_url, aria2c_options))
 
     if not download_links_with_out:
