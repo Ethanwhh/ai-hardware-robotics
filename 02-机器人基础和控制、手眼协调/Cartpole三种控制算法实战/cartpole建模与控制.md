@@ -11,7 +11,7 @@
 
 ## 二、Cartpole建模
 
-Cartploe官方的动力学模型定义部分代码如下所示（参考http://incompleteideas.net/sutton/book/code/pole.c）：
+Cartploe官方的动力学模型定义部分代码如下所示，参考http://incompleteideas.net/sutton/book/code/pole.c
 
 详细可参考code中的cartpole_env.py文件，在实践过程中，为了适应线性控制器，我们对动力学模型进行了近似处理，将于后面进行介绍。
 
@@ -245,3 +245,4 @@ def mpc_prediction(x_k, E, H, N, p):
 <img src="code/MPC_CartPole-v1.gif"/>
 
 <img src="code/MPC.png"/>
+
