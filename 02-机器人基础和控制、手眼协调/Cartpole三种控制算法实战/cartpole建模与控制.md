@@ -159,8 +159,10 @@ MPC的核心组成部分：
 线性MPC的问题描述：
 
 $$
+\begin{array}{l}
 \text { S.T. } \quad x(k+j+1 \mid k)=A x(k+j \mid k)+B u(k+j \mid k), \quad j=0,1, \ldots, N-1,\\
 J=\sum_{j=0}^{N-1}\left[x^{T}(k+j \mid k) Q x(k+j \mid k)+u^{T}(k+j \mid k) R u(k+j \mid k)\right]+x^{T}(k+N \mid k) F x(k+N \mid k)
+\end{array}
 $$
 
 其中：
@@ -228,19 +230,18 @@ def mpc_prediction(x_k, E, H, N, p):
 
 ### 1. PID控制结果
 
-<img src="PID.png"/>
+<img src="code/PID_CartPole-v1.gif"/>
 
-<img src="PID_CartPole-v1.gif"/>
+<img src="code/PID.png"/>
 
 ### 2. LQR控制结果
 
-<img src="LQR.png"/>
+![](code/LQR_CartPole-v1.gif)
 
-<img src="LQR_CartPole-v1.gif"/>
-
+![](code/LQR.png)
 
 ### 3. MPC控制结果
 
-<img src="MPC.png"/>
+<img src="code/MPC_CartPole-v1.gif"/>
 
-<img src="MPC_CartPole-v1.gif"/>
+<img src="code/MPC.png"/>
