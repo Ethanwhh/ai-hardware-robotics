@@ -24,16 +24,16 @@ Cartploe官方的动力学模型定义部分代码如下所示，参考http://in
 转换成公式可以表示为：
 
 $$
-\left\{\begin{array}{l}
+\left\\{\begin{array}{l}
 \ddot{x}=\frac{F+m_{p} l \dot{\theta}^{2} \sin \theta}{m_{p}+m_{c}}-\frac{m_{p} l \dot{\theta}^{2} \sin \theta}{m_{p}+m_{c}} \\
 \ddot{\theta}=\frac{g \sin \theta-\cos \theta \cdot \frac{F+m_{p} l \dot{\theta}^{2} \sin \theta}{m_{p}+m_{c}}}{l\left(\frac{4}{3}-\frac{m_{p} \cos \theta^{2}}{m_{p}+m_{c}}\right)}
 \end{array}\right.
 $$
 
-针对线性控制器，由于倒立摆的$\theta$角很小，可以做近似处理，因此将$\theta$趋近于0，同时$\sin \theta$和$\cos \theta$也做近似处理，可以得到，$\sin \theta \approx \theta$，$\cos \theta \approx 1$，经过近似处理后，公式可以表示为：
+针对线性控制器，由于倒立摆的 $\theta$ 角很小，可以做近似处理，因此将 $\theta$ 趋近于0，同时 $\sin \theta$ 和 $\cos \theta$ 也做近似处理，可以得到， $\sin \theta \approx \theta$ ， $\cos \theta \approx 1$ ，经过近似处理后，公式可以表示为：
 
 $$
-\left\{\begin{array}{l}
+\left\\{\begin{array}{l}
 \ddot{x}=\left(\frac{1}{m_{p}+m_{c}}+\frac{3 m_{p}}{m_{p}+4 m_{c}}\right) F-\frac{3 m_{p} g}{m_{p}+4 m_{c}} \theta \\
 \ddot{\theta}=\frac{3 g\left(m_{p}+m_{c}\right) \theta}{l\left(m_{p}+4 m_{c}\right)}-\frac{3 F}{l\left(m_{p}+4 m_{c}\right)}
 \end{array}\right.
@@ -129,7 +129,7 @@ $$
 u=-K(x_{now}-x_{des})
 $$
 
-在LQR控制器实际的Cartpole使用过程中，$N$是状态与控制输入的交叉权重矩阵，Cartpole问题中没有需要特别惩罚这种交叉项，因此将其设为零矩阵。
+在LQR控制器实际的Cartpole使用过程中， $N$ 是状态与控制输入的交叉权重矩阵，Cartpole问题中没有需要特别惩罚这种交叉项，因此将其设为零矩阵。
 
 LQR控制器的核心代码如下所示：
 
@@ -167,12 +167,12 @@ $$
 
 其中：
 
-* $N$是预测步长（预测区间）。
-* $x(k+j \mid k)$是在$k$时刻对$k+j$时刻状态的预测。
-* $u(k+j \mid k)$是在$k$时刻计划在$k+j$时刻的控制输入。
-* $Q$是状态权重矩阵
-* $R$是控制输入权重矩阵
-* $F$是终端状态权重矩阵
+* $N$ 是预测步长（预测区间）。
+* $x(k+j \mid k)$ 是在 $k$ 时刻对 $k+j$ 时刻状态的预测。
+* $u(k+j \mid k)$ 是在 $k$ 时刻计划在 $k+j$ 时刻的控制输入。
+* $Q$ 是状态权重矩阵
+* $R$ 是控制输入权重矩阵
+* $F$ 是终端状态权重矩阵
 
 MPC控制器的核心代码如下所示：
 
@@ -245,4 +245,5 @@ def mpc_prediction(x_k, E, H, N, p):
 <img src="code/MPC_CartPole-v1.gif"/>
 
 <img src="code/MPC.png"/>
+
 
